@@ -1,8 +1,10 @@
+var input = document.querySelector("#userInput")
+console.log(input);
 var storage=firebase.storage();
 var storageRef=storage.ref();
 $('#List').find('tbody').html('');
 var i=0;
-storageRef.child("certificates/").listAll().then(function(result){
+storageRef.child('$input').listAll().then(function(result){
     result.items.forEach(function(imageRef){
         console.log("Image reference" + imageRef.toString());
         i++;
