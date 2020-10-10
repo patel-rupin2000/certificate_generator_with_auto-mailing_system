@@ -105,12 +105,12 @@ for i in range(no_of_files):
                 cv.putText(img,event[i],tuple(start_4), font, 2,(0,0,0),2,cv.LINE_AA)
                 cv.putText(img,event[i], (1500, 500), font, 2, (0, 0, 0), 2)
                 cv.imwrite(destination+name[i]+'_'+event[i]+'.jpg',img)
-                path_on_cloud="certificates"+name[i]+".jpg"
+                path_on_cloud="certificates/"+name[i]+".jpg"
                 path_local=destination+name[i]+'_'+event[i]+'.jpg'
                 storage.child(path_on_cloud).put(path_local)
-                path_cloud=name[i]+'.jpg'
+                path_cloud=name[i]+'/'+'.jpg'
                 storage.child(path_cloud).put(path_local)
-                from_addr = 'patelrupin63@gmail.com'
+                from_addr = 'patel.rupin56@gmail.com'
                 to_addr =email_id
                 msg = MIMEMultipart()
                 msg['From'] = from_addr

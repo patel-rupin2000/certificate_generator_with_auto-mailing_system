@@ -8,7 +8,7 @@
         <table id="List">
             <form id="form" onsubmit="return false;">
                 <input style="position:absolute; top:80%; left:5%; width:40%;" type="text" id="userInput" />
-                <button name="input" type="submit" onclick="othername();">Hello</button>
+                <button name="input" type="submit" onclick="othername();">SUBMIT</button>
             </form>
             
             <script>
@@ -20,7 +20,7 @@ var storage=firebase.storage();
 var storageRef=storage.ref();
 $('#List').find('tbody').html('');
 var i=0;
-storageRef.child(input).listAll().then(function(result){
+storageRef.child(input+'/').listAll().then(function(result){
     result.items.forEach(function(imageRef){
         console.log("Image reference" + imageRef.toString());
         i++;
