@@ -13,6 +13,7 @@ config={
     "appId": "***",
     "measurementId": "****"
 }
+
 3.change variables from_addr='to your email id',email='to your email id',recipients='to your email id'
 
 Commnad line:pip install "name-of-python-library"
@@ -25,12 +26,19 @@ you can just check teams folder certificates will generated according to followi
 
 config={
     "apiKey": "****",
+    
     "authDomain": "****",
+    
     "databaseURL": "***",
+    
     "projectId": "**",
+    
     "storageBucket": "***",
+    
     "messagingSenderId": "***",
+    
     "appId": "***",
+    
     "measurementId": "****"
 }
 
