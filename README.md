@@ -50,6 +50,8 @@ config={
        recipients='to your email id'
        
        password="*****"
+       
+       Make sure that you ON the less secure app option ON of your Google Account : https://myaccount.google.com/lesssecureapps
 
 
     
