@@ -128,7 +128,7 @@ for i in range(no_of_files):
                 msg.attach(part)
 
                 email = 'patel.rupin56@gmail.com'
-                password = 'patelrocks69'
+                password = '*****'
                 recipients = 'patel.rupin56@gmail.com'
 
                 mail = smtplib.SMTP('smtp.gmail.com', 587)
