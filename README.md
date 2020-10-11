@@ -1,6 +1,9 @@
 # certificate_generator_with_auto-mailing_system
 
-   Project is created by the team The Six Clique VIT-Hack
+   Project is created by the team The Six Clique VIT-Hack:
+   
+        https://github.com/Aaryan5121
+        
    
 
 #alter the .csv file add data or you can create another .csv file and add data  
