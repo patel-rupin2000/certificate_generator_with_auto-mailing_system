@@ -15,7 +15,7 @@ config={
 }
 3.change variables from_addr='to your email id',email='to your email id',recipients='to your email id'
 
-Commnad line:pip install <name-of-python-library>
+Commnad line:pip install "name-of-python-library"
     
 4.just run certi.py it will auto matically send mail to participants and uplaod certificates on google firebase
 
