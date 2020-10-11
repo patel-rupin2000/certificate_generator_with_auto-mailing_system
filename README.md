@@ -29,7 +29,7 @@ Commnad line:pip install "name-of-python-library"
 
 you can just check teams folder certificates will generated according to following path teams->college's name->event->.jpg file
 
-5.for firebase just alter the credentials and apiKey in config.js file same config which are given in cert.py
+5.for firebase just alter the credentials and apiKey in config.js file same config which are given in certi.py with your own apiKey
 
 config={
     "apiKey": "****",
