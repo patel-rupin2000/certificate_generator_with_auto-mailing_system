@@ -1,4 +1,8 @@
 # certificate_generator_with_auto-mailing_system
+
+   Project is created by the team The Six Clique VIT-Hack
+   
+
 #alter the .csv file add data or you can create another .csv file and add data  
 1.just install required library of python -> opencv-python, pillow, smtplib, pyrebase
 
