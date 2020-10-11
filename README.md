@@ -48,6 +48,8 @@ config={
        email='to your email id',
 
        recipients='to your email id'
+       
+       password="*****"
 
 
     
