@@ -10,14 +10,12 @@ from email.mime.base import MIMEBase
 from email import encoders
 import pyrebase
 config={
-    "apiKey": "AIzaSyC6IPdVSz3s4umFwNAtgJnliIG6IV3FGW8",
-    "authDomain": "cert-43ffe.firebaseapp.com",
-    "databaseURL": "https://cert-43ffe.firebaseio.com",
-    "projectId": "cert-43ffe",
-    "storageBucket": "cert-43ffe.appspot.com",
-    "messagingSenderId": "261377733062",
-    "appId": "1:261377733062:web:669d4041a96a41d69742c7",
-    "measurementId": "G-24C3942VV3"
+    apiKey: "<your-api-key>",
+    authDomain: "<your-auth-domain>",
+    databaseURL: "<your-database-url>",
+    projectId: "<your-project-id>",
+    storageBucket: "<your-storage_bucket>",
+    messagingSenderId: "<your-message-sender-id>"
 }
 firebase=pyrebase.initialize_app(config)
 storage=firebase.storage()
@@ -110,12 +108,12 @@ for i in range(no_of_files):
                 storage.child(path_on_cloud).put(path_local)
                 path_cloud=name[i]+'/'+'.jpg'
                 storage.child(path_cloud).put(path_local)
-                from_addr = 'patel.rupin56@gmail.com'
+                from_addr = '<Your email id>'
                 to_addr =email_id
                 msg = MIMEMultipart()
                 msg['From'] = from_addr
                 msg['To'] =to_addr[i]
-                msg['subject'] = 'just to check Hii This is Rupin '
+                msg['subject'] = 'just to check Hii This is <name> '
 
                 filename = path_local
                 attachment = open(filename, 'rb')
@@ -127,9 +125,9 @@ for i in range(no_of_files):
 
                 msg.attach(part)
 
-                email = 'patel.rupin56@gmail.com'
+                email = '<Your email id>'
                 password = '*****'
-                recipients = 'patel.rupin56@gmail.com'
+                recipients = '<Your email id>'
 
                 mail = smtplib.SMTP('smtp.gmail.com', 587)
                 mail.ehlo()
