@@ -1,15 +1,6 @@
 # certificate_generator_with_auto-mailing_system
 
-   Project is created by the team The Six Clique VIT-Hack:
-   
-        https://github.com/Aaryan5121
-        
-        https://github.com/Dhruvam25
-        
-        https://github.com/patel-rupin2000
-        
-        https://github.com/Srajat42
-        
+      
         
         
         
