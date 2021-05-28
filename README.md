@@ -11,7 +11,7 @@
 
      Commnad line:pip install "name-of-python-library"
 
-2.change the configuration of firebase according to your own apiKeys
+2.change the configuration of firebase according to your own apiKeys in main.py and dynamic.py file
 
 config={
 
