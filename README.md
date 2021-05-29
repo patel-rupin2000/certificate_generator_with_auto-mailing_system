@@ -1,6 +1,6 @@
 # certificate_generator_with_auto-mailing_system
-<h2>If you want try deployed tool run main.exe file and do watch video https://youtu.be/VY9aPLamaHg  for reference and the website for validation URL:  https://cert-43ffe.web.app </h2>
-<h2>You can download main.exe file from repository as well as from https://drive.google.com/file/d/1KxNgo27yFAFzfIXKiSZQL9X4rQo-EV9V/view?usp=sharing </h2>
+<h2>If you want try deployed tool run main.exe file and do watch video https://youtu.be/VY9aPLamaHg  for reference and the website for validation :  https://cert-43ffe.web.app </h2>
+<h2>You can download main.exe file from repository as well as from drive https://drive.google.com/file/d/1KxNgo27yFAFzfIXKiSZQL9X4rQo-EV9V/view?usp=sharing </h2>
 
 
 <h1>If you want to mainpulate code follow the steps to run source code</h1>
